@@ -19,7 +19,7 @@ spec:
         image: nginx:1.17.1
         ports:
         - containerPort: 80
-      - name: mysql
-        image: mysql:8.0.1
+      - name: postgres
+        image: postgres:13.1
         ports:
-        - containerPort: 3306
+        - containerPort: 5432
