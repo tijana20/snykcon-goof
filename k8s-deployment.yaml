@@ -19,7 +19,7 @@ spec:
         image: nginx:1.17.1
         ports:
         - containerPort: 80
-      - name: redis
-        image: redis:4.0
+      - name: mysql
+        image: mysql:8.0.1
         ports:
-        - containerPort: 8080
+        - containerPort: 3306
